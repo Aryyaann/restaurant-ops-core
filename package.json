@@ -3,7 +3,6 @@
   "private": true,
   "workspaces": ["server", "apps/*"],
   "scripts": {
-    "dev": "npm run dev --workspaces",
     "dev:server": "npm run dev -w server",
     "dev:waiter": "npm run dev -w apps/waiter-ui",
     "dev:kitchen": "npm run dev -w apps/kitchen-ui",
